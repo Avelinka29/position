@@ -65,7 +65,7 @@ class ContentViewModel: NSObject, ObservableObject, CLLocationManagerDelegate {
             print("Ограничен доступ")
             
         case .denied:
-            print("Не предоставлен доступ")
+            print("Не предоставлен доступ2")
         case . authorizedAlways, .authorizedWhenInUse:
             region = MKCoordinateRegion(center: locationManager.location!.coordinate, span:
                                             MKCoordinateSpan(latitudeDelta: 0.1, longitudeDelta: 0.1))
